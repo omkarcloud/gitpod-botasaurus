@@ -1,0 +1,4 @@
+image: chetan1111/gitpod-botasaurus
+
+tasks:
+  - init: git clone --depth 1 https://github.com/omkarcloud/botasaurus-starter botasaurus-project && cd botasaurus-project
