@@ -1,4 +1,4 @@
 image: chetan1111/gitpod-botasaurus:3
 
 tasks:
-  - init: pip install botasaurus
+  - init: pip install botasaurus && git clone --depth 1 https://github.com/omkarcloud/botasaurus-starter botasaurus-project && cd botasaurus-project 
