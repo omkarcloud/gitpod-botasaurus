@@ -1,5 +1,5 @@
 # Start from the Gitpod workspace full image
-FROM gitpod/workspace-python-3.12
+FROM gitpod/workspace-full
 
 USER root
 
