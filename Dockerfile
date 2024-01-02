@@ -22,6 +22,9 @@ RUN apt-get update && apt-get install -y google-chrome-stable \
 
 USER gitpod
 
+RUN python -m pip install javascript
+RUN python -m javascript --install proxy-chain
+
 # Add the Chrome as a path variable
 ENV CHROME_BIN=/usr/bin/google-chrome
 
